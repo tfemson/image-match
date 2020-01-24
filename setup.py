@@ -56,14 +56,14 @@ docs_require = [
 
 
 setup(
-    name='image_match',
+    name='vmn-image_match',
     version=find_version('image_match', '__init__.py'),
     description='image_match is a simple package for finding approximate '\
                 'image matches from a corpus.',
     long_description=__doc__,
-    url='https://github.com/ascribe/image-match/',
-    author='Ryan Henderson',
-    author_email='ryan@bigchaindb.com',
+    url='https://github.com/tfemson/image-match/',
+    author='Femson Adeyeye',
+    author_email='tfemson@gmail.com',
     license='Apache License 2.0',
     zip_safe=True,
 
@@ -88,7 +88,7 @@ setup(
         'pytest-runner',
     ],
     install_requires=[
-        'scikit-image>=0.14',
+        'vmn-scikit-image',
         'elasticsearch>=5.0.0,<6.0.0',
         'six>=1.11.0',
     ],
